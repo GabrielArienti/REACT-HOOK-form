@@ -1,15 +1,16 @@
 import "./App.css";
 import stepper from "./components/stepper";
-import steppercontrol from "./components/steppercontrol"
+import steppercontrol from "./components/steppercontrol";
 
 function App() {
   return (
-    // Stepper
-    <stepper/>
-
-    // Navigation buttons
-    <steppercontrol/>
-    // Form
+    <div className="app">
+      {/* Stepper */}
+      <stepper />
+      {/* Stepper Control */}
+      <steppercontrol />
+      // Form
+    </div>
   );
 }
 
