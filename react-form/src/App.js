@@ -1,13 +1,14 @@
 import "./App.css";
-import Stepper from "./components/stepper";
+import stepper from "./components/stepper";
+import steppercontrol from "./components/steppercontrol"
 
 function App() {
   return (
     // Stepper
-    Stepper
+    <stepper/>
 
     // Navigation buttons
-
+    <steppercontrol/>
     // Form
   );
 }
