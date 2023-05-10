@@ -1,7 +1,7 @@
 import React from "react";
 
-const Stepper = () => {
+const stepper = () => {
   return <div></div>;
 };
 
-export default Stepper;
+export default stepper;
