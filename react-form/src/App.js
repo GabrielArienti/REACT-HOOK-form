@@ -4,12 +4,13 @@ import steppercontrol from "./components/steppercontrol";
 
 function App() {
   return (
-    <div className="app">
+    <div className="md:w-1/2 mx-auto shadow-xl rounded-2xl pb-2 bg-white">
       {/* Stepper */}
-      <stepper />
+      <div className="container horizontal mt-5 ">
+        <stepper />
+      </div>
       {/* Stepper Control */}
       <steppercontrol />
-      // Form
     </div>
   );
 }
